@@ -1,8 +1,64 @@
 /* Estilos para a página paulo.html */
 h1 {
-  font-family: Arial;
+	display: block;
+	font-family: Segoe Ui;
+  	font-size: 2em;
+  	font-weight: bold;
 }
 
+h2 {
+
+
+}
+
+h3 {
+
+
+}
+
+
 p {
-  color: blue;
+	font-family: Segoe;
+	font-size: 18px;
+}
+
+.headerPaulo {
+	background-color: #000000;
+	padding: 10px;
+}
+
+.logo { 
+	text-align: center;
+	color: white;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.social {
+	position: absolute;
+	top: 60px;
+	right: 15px;
+	padding-top: 15px;
+	list-style: outside none none;
+}
+
+.menu li{
+	position: relative;
+	text-align: center;
+	display: inline;
+	padding: 40px;
+}
+
+.menu a{
+	font-family: Segoe WP Black;
+	font-size: 18px;
+}
+
+#main{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 3px;
 }
