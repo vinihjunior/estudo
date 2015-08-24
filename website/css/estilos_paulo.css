@@ -1,4 +1,8 @@
 /* Estilos para a página paulo.html */
 h1 {
-	font-family: Arial;
+  font-family: Arial;
+}
+
+p {
+  color: blue;
 }
