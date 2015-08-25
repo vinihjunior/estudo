@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-
+	margin-top: 10px;
 
 }
 
@@ -20,6 +20,14 @@ h3 {
 p {
 	font-family: Segoe;
 	font-size: 18px;
+	padding-top: 2px;
+}
+
+.centralizar{
+	text-align: center;
+}
+.justificar{
+	text-align: justify;
 }
 
 .headerPaulo {
@@ -41,7 +49,7 @@ p {
 	position: absolute;
 	top: 60px;
 	right: 15px;
-	padding-top: 15px;
+	padding-top: 50px;
 	list-style: outside none none;
 }
 
@@ -50,15 +58,26 @@ p {
 	text-align: center;
 	display: inline;
 	padding: 40px;
+
 }
 
 .menu a{
 	font-family: Segoe WP Black;
 	font-size: 18px;
+	text-decoration: none;
+	color: inherit;
 }
 
 #main{
-	max-width: 600px;
+	border: solid 1px;
+	position: relative;
+	max-width: 800px;
 	margin: 0 auto;
-	padding: 3px;
+}
+
+nav {
+	position: relative;
+	background-position: 100%;
+	background-color: #C2E0FF;
+	padding: 8px;
 }
