@@ -1,0 +1,35 @@
+#lateral {
+	padding:0 50px 0 0;
+	-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+	font-size:1.2em;
+	background:#20262e;
+	height:100%;
+	overflow:hidden;
+	width:370px;
+	position:fixed;
+	top:0;
+	left:-320px;
+	}
+#lateral:before {
+	z-index:1000;
+	content: url(icone-menu.png);
+	font-size:4em;
+	color:white;
+	position:fixed;
+	left:4px;
+	top:45px;
+	}
+#lateral:hover:before, #lateral:focus:before {
+left:-500px
+	}
+#lateral:hover, #lateral:focus,  #lateral:active  {
+	overflow-y:scroll;
+	-moz-transform: translate(320px, 0);
+		-webkit-transform: translate(320px, 0);
+			-o-transform: translate(320px, 0);
+				transform: translate(320px, 0);
+	padding-right:0;
+	}

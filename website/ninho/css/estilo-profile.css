@@ -1,0 +1,47 @@
+.banner{
+  background-color: #bf2121;
+  height: 350px;
+  box-shadow: 4px 4px 4px #871717;
+  position: absolute;
+}
+
+.folha{
+  background-color: #fff;
+  margin-top: 160px;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 4px #989898;
+}
+
+#perfil{
+  height: 220px;
+  width: 210px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#title{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: #202125;
+}
+
+.folha p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #202125;
+}
+
+#botoes{
+  margin: auto;
+}
+
+#miniaturas img{
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*.bg{
+  background-color: #41fb4f;
+  height: 400px
+}*/

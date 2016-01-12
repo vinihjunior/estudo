@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* =CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*, html, body {
+	margin:0;
+	padding:0;
+	}
+... /* mais regras CSS reset */
+
+/* regra para o box-sizing */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* regra para o clear float */
+.cf:before,
+.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+body {
+	margin-left:55px;
+	font:  62.5%/1.2 Verdana, Helvetica, Arial, sans-serif;
+	}
